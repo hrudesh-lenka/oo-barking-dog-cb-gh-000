@@ -1,6 +1,9 @@
 # Your code goes here!
 def Dog
-  attr_accessor :name, :bark
+  def initializer(name,bark)
+    @name = name
+    @bark = bark
+  end
   def name
     @name
   end
